@@ -1,0 +1,74 @@
+/* BASIC STYLES HERE */
+
+.bgImage {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.clocksize {
+    font-size: 120pt;
+}
+
+.inputzone {
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    padding: 5px 10px;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    min-width: 25vw
+}
+
+.inputzone2 {
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    padding: 5px 10px;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    max-width: 10vw
+}
+
+.glassy {
+    /* box-shadow: 0 0 3px 0; */
+    background: inherit;
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+}
+
+.glassy2 {
+    box-shadow: 0 0 1px 0;
+    background: inherit;
+    /* backdrop-filter: blur(10px); */
+    color: #ffffff;
+}
+
+.hide {
+    display: none;
+}
+
+.myclass:hover+.hide {
+    display: block;
+}
+
+.tdsize {
+    width: 16rem;
+    min-height: 12rem;
+    max-height: 12rem;
+}
+
+.tdsize2 {
+    max-height: 10rem;
+    overflow: auto;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hide-bar::-webkit-scrollbar {
+    display: none;
+}
