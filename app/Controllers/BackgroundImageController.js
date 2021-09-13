@@ -1,5 +1,5 @@
 import { ProxyState } from "../AppState.js";
-import { backgroundService } from "../Services/backgroundService.js";
+import { backgroundService } from "../Services/BackgroundService.js";
 
 function _drawBgImage() {
 
